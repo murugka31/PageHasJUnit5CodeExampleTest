@@ -1,0 +1,1 @@
+Автотест на наличие примера кода для JUnit5 на странице SoftAssertions - https://github.com/selenide/selenide/wiki/SoftAssertions
