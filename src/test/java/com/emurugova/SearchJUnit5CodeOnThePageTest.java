@@ -13,11 +13,12 @@ public class SearchJUnit5CodeOnThePageTest {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "2100x1080";
+        Configuration.baseUrl = "https://github.com";
     }
 
     @Test
     void searchAvailabilityOfCodeExample(){
-        open("https://github.com/");
+        open("/");
         $("[data-test-selector=nav-search-input]").setValue("selenide").pressEnter();
         $$(".repo-list li").first().$("a").click();
         $("#wiki-tab").parent().click();
