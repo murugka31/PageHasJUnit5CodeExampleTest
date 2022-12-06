@@ -1,4 +1,4 @@
-package simbirsoft.emurugova;
+package com.emurugova;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
